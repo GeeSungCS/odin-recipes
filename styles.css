@@ -1,3 +1,13 @@
 h1 {
-    color: purple;
+    color: #f28482;
+    font-weight: lighter;
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Papyrus';
+}
+
+body {
+    color: #84a59d;
+    background-color: #f5cac3;
+    font-family: 'Helvetica', sans-serif;
 }
