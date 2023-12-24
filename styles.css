@@ -4,6 +4,8 @@ h1 {
     font-size: 55px;
     text-align: center;
     font-family: 'Papyrus';
+    height: auto;
+    width: auto;
 }
 
 body {
@@ -11,3 +13,46 @@ body {
     background-color: #f5cac3;
     font-family: 'Helvetica', sans-serif;
 }
+
+#recipeList {
+    text-align: center;
+    border-color: #84a59d;
+    border: solid;
+    border-radius: 25px;
+    border-width: 2px;
+    list-style-position: inside;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+
+li {
+    margin: 8px;
+}
+
+img {
+    border: 4px solid #f7ede2;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+
+#middleText {
+    text-align: center;
+    list-style-position: inside;
+}
+
+/* This will turn optional ingredients orange */
+
+/* #optional {
+    color: #ebb051;
+} */
+
+/* This will add a border around the text after the image */
+
+/* #optionalBorder {
+    border: 4px dotted #f6bd60;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 10px;
+} */
